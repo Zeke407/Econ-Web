@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head id="mainHeader">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Intro Economics Website</title>
+  </head>
+  <body>
+    <div class="headerContainer">
+    <header id="mainHeader">
+      <h1 id="title">Economics Website</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Laws</a>
+        <a href="#">Formulas</a>
+        <a href="#">Notes</a>
+      </nav>
+    </header>
+  </div>
+      <div class="container">
+        <div class="box2">
+          <header>
+            <h2 class="subHeader">Enter Values</h2>
+          </header>
+          <select name="select" id="select">
+              <option value="QSn">QSn</option>
+              <option value="QDn">QDn</option>
+          </select>
+          <form id="input">
+            <input id="Qi" class="inputBox" type="number" placeholder="Qi" />
+            <input id="Pi" class="inputBox" type="number" placeholder="Pi" />
+            <input id="Pn" class="inputBox" type="number" placeholder="Pn" />
+            <input id="E" class="inputBox" type="number" placeholder="E" />
+            <input id="X" class="inputBox" type="number" placeholder="round" />
+            <button id="button" type="button">Enter</button>
+          </form>
+        </div>
+        <div class="box1">
+          <header>
+            <h2 class="subHeader">Output</h2>
+            <button id="clrBtn"  onclick = "clearBox('clear')">Clear</button>
+          </header>
+          <div id="clear">
+            <div id="output"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class=""></div>
+    <div>
+    <footer id="mainFooter">
+      <p>Copyright &copy; 2020, Zeke English</p>
+      <script src="main.js"></script>
+    </footer>
+    </div>
+  </body>
+</html>

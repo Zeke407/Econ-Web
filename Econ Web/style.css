@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#mainHeader {
+  background-color: #2846ee;
+  color: #f4f4f4;
+  padding: 20px;
+  margin: 0 0 20px 0;
+  font-weight: bold;
+}
+nav a {
+  margin: 0 10px;
+  display: inline;
+  color: #f4f4f4;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #000000;
+}
+nav a:active {
+  color: rgba(17, 177, 97, 0.836);
+}
+#output {
+  text-align: center;
+}
+.outputBox {
+  margin: 10px;
+  padding: 10px;
+  border: solid #ccc;
+  background-color: #fff;
+}
+.container {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  background-color: #ccc;
+  border: 3px solid #ccc;
+  padding: 20px;
+  max-width: 2000px;
+  position: fixed; /* 'fixed' will work also. */
+  left: 25%;
+  transform: translateX(-19%);
+}
+.box1 {
+  text-align: center;
+  background-color: #f4f4f4;
+}
+.box2 {
+  text-align: center;
+  background-color: #f4f4f4;
+}
+.subHeader {
+  margin: 5px 0 5px 0;
+}
+#select {
+  width: 20%;
+  margin: 5px;
+}
+#input {
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+}
+.inputBox {
+  margin: 0 0 5px 0;
+  padding: 1%;
+  border: 1%;
+  width: 100%;
+  border-color: #ccc;
+  font-weight: bold;
+  border-radius: 3px;
+}
+#button {
+  width: 100%;
+  margin-left: 1.25%;
+  padding: 8px;
+  border-radius: 3px;
+  background-color: black;
+  color: #f4f4f4;
+  border: none;
+  font-weight: bold;
+  font-size: 1em;
+}
+#mainFooter {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 5px 0 0 0;
+  padding-bottom: 2.5rem;
+  height: 2.5rem;
+  background-color: #2846ee;
+  color: #f4f4f4;
+}
+.clr {
+  clear: both;
+}
+#clrBtn {
+  margin: auto;
+  border: solid;
+  border: #f73a3a;
+  color: #fff;
+  border-radius: 3px;
+  background-color: #f73a3a;
+  padding: 3px;
+}
